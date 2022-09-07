@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ddr_freq_options>
+
+	<write path="/sys/devices/platform/soc/1c00f000.dvfsrc/1c00f000.dvfsrc:dvfsrc-helper/dvfsrc_force_vcore_dvfs_opp"/>
+	<read path="/sys/bus/platform/drivers/dramc_drv/dram_data_rate"   read_regex="(DRAM data rate = )(\d+)" regex_group="2"/>
+
+	<option name="opp0 6400Mbps"      write_value="0"       read_value="6400"/>
+	<option name="opp2 5500Mbps"      write_value="2"       read_value="5500"/>
+	<option name="opp4 4266Mbps"      write_value="4"       read_value="4266"/>
+	<option name="opp6 3200Mbps"      write_value="6"       read_value="3200"/>
+	<option name="opp9 2667Mbps"      write_value="9"       read_value="2667"/>
+	<option name="opp13 2133Mbps"     write_value="13"      read_value="2133"/>
+	<option name="opp17 1866Mbps"     write_value="17"      read_value="1866"/>
+	<option name="opp22 800Mbps"      write_value="22"      read_value="800"/>
+
+</ddr_freq_options>

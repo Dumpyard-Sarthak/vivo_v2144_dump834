@@ -1,0 +1,7 @@
+{
+	"rgbw_fusion": {
+		"bindcoreStart": 4,
+		"bindcoreEnd": 5,
+		"bindcoreNum": 8
+	}
+}
